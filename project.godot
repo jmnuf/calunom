@@ -8,6 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "DataStock",
+"class": "DataSet",
+"language": "GDScript",
+"path": "res://addons/jm/DataStorer/DataSet.gd"
+}, {
+"base": "Resource",
+"class": "DataStock",
+"language": "GDScript",
+"path": "res://addons/jm/DataStorer/Stock.gd"
+}, {
+"base": "Resource",
+"class": "DataStore",
+"language": "GDScript",
+"path": "res://addons/jm/DataStorer/DataStore.gd"
+} ]
+_global_script_class_icons={
+"DataSet": "",
+"DataStock": "",
+"DataStore": ""
+}
+
 [application]
 
 config/name="Scene Constructor"
