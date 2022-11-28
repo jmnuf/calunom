@@ -1,0 +1,4 @@
+
+# Ignore import data
+.import/
+**/*.import
